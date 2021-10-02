@@ -16,6 +16,10 @@ export class StudentListComponent implements OnInit {
     this.loadStudents();
   }
 
+  onDelete(id: number) {
+    this.studentService.deleteById(id);
+  }
+
   private loadStudents() {
     this.students = this.studentService.findAll();
   }
