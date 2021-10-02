@@ -32,6 +32,7 @@ export class StudentEditComponent implements OnInit {
 
   private searchStudent() {
     this.student = this.studentService.findById(this.id);
+    this.student = JSON.parse(JSON.stringify(this.student));
   }
 
 }
