@@ -9,6 +9,8 @@ import { CoreModule } from './core/core.module';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,7 @@ import { CoreModule } from './core/core.module';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    CoreModule
+    CoreModule,
 
   ],
   providers: [],
