@@ -10,6 +10,9 @@ import { AgePipe } from './pipes/age.pipe';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    AgePipe
   ]
 })
 export class SharedModule { }
